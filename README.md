@@ -6,3 +6,5 @@ This project is incomplete and more focus is being put onto another operating sy
 **!! ALL SCRIPTS ARE UNTESTED !!**
 
 Made by Ayaan Eusufzai/2048hertz
+
+_**📍 DHK, Bangladesh**_
