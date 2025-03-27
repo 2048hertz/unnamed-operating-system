@@ -3,6 +3,6 @@ A no-nonsense GNU/Linux distro based on Void Linux that runs from your USB. It d
 
 This project is incomplete and more focus is being put onto another operating system being developed alongside this one, which you can visit at https://github.com/2048hertz/AdaOS
 
-!! ALL SCRIPTS ARE UNTESTED !!
+**!! ALL SCRIPTS ARE UNTESTED !!**
 
 Made by Ayaan Eusufzai/2048hertz
