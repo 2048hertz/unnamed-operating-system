@@ -14,6 +14,7 @@ xbps-install -S \
   psmisc \
   flatpak \
   xrandr \
+  xdotool \
   xdg-utils
 
 echo "[+] GUI dependencies installed."
