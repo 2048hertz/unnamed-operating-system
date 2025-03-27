@@ -102,20 +102,20 @@ function run_doctor() {
 
     for cmd in "${REQUIRED_CMDS[@]}"; do
         if ! command -v "$cmd" &> /dev/null; then
-            echo "[❌] Missing: $cmd"
+            echo "[MISSING] $cmd"
         else
-            echo "[✅] Found: $cmd"
+            echo "[OK]      $cmd"
         fi
     done
 
     if [ -z "$IFACE" ]; then
-        echo "[⚠️ ] No wireless interface found. Are you on a laptop or using a USB Wi-Fi adapter?"
+        echo "[NOTE] No wireless interface found. Are you on a laptop or using a USB Wi-Fi adapter?"
     else
-        echo "[✅] Wireless interface detected: $IFACE"
+        echo "[OK]   Wireless interface detected: $IFACE"
     fi
 
     echo
-    echo "If something’s missing, run:"
+    echo "To install missing packages, run:"
     echo "  xbps-install -S iw wpa_supplicant dhcpcd psmisc iproute2"
 }
 
