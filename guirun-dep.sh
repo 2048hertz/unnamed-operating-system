@@ -16,4 +16,4 @@ xbps-install -S \
   xrandr \
   xdg-utils
 
-echo "[+] GUI dependencies installed successfully."
+echo "[+] GUI dependencies installed."
